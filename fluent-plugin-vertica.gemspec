@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 1.9.1'
 
-  spec.add_dependency 'fluentd', '~> 0.10.35'
+  spec.add_dependency 'fluentd', '~> 0.12.0'
   spec.add_dependency 'vertica'
 
   spec.files = Dir['LICENSE', 'README.md', '{lib, test}/**/*']
